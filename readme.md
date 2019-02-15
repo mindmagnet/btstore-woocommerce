@@ -1,12 +1,12 @@
-#Manual de utilizare pentru WooCommerce eBTPay
+<h1>Manual de utilizare pentru WooCommerce eBTPay</h1>
 
 Modulul de WooCommerce eBTPay funcționează pe modelul Authorize-Capture/Void, deci
 la plasarea comenzii suma este autorizată (debitată de pe cardul clientului), iar la livrare ea
 este capturată (virată în contul comerciantului); în caz de imposibilitate de livrare, în loc de
 capturare comanda este anulată (void) iar banii sunt returnați clientlui. Există și posibilitatea
 void-ului după capturare.
-##Instalarea Modulului
-##Dependențe
+<h2>Instalarea Modulului</h2>
+<h3>Dependențe</h3>
 Pentru a putea utiliza modului de plată WooCommerce eBTPay, este necesar ca utilizatorul
 să aibă instalate următoarele:
 
@@ -20,7 +20,7 @@ să aibă instalate următoarele:
 Wordpress 3.5 – 3.8, există posibilitatea de a funcționa corect și pentru versiuni mai vechi de
 WooCommerce sau versiuni mai noi de WordPress, însă utilizarea modului pentru aceste
 versiuni se face pe proprie răspundere.
-##Instalare
+<h3>Instalare</h3>
 1. Descărcați și instalați platforma WordPress, versiunea 3.5 sau mai nouă. Aceasta se
 găsește la: http://wordpress.org/download/
 2. Verificați funcționarea corectă a WordPress
@@ -43,7 +43,7 @@ parte, vă sfătuim să le configurați după preferințe.
 
 *În cazul în care întâmpinați dificultăți la instalare, vă rugăm să ne contactați pentru suport.
 
-##Autorizarea
+<h3>Autorizarea</h3>
 La plasarea comenzii, metodele de plată eBTPay sunt afișate clientului iar după plasarea
 comenzii acesta este redirectat la pagina de plată RomCard unde va introduce datele de
 card; cardurile înrolate vor fi duse la pasul de 3D secure, iar după finalizarea plății,
@@ -53,7 +53,7 @@ utilizatorul este întors la site-ul comerciantului.
 comentarii (order notes) rezultatul autorizării cu mesajul de succes sau eventual cel de
 eroare.
 
-##Capturarea
+<h3>Capturarea</h3>
 Pentru a captura o sumă, trebuie utilizată interfața BT Pay API Calls din căsuța Transaction
 History, unde se selectează la API Call Action opțiunea „Încasare plată”. De asemenea, se
 poate seta și o sumă care să fie autorizată, sau se poate lăsa valoarea implicită care
@@ -67,7 +67,7 @@ Dacă răspunsul primit de la portalul de plată este valid și tranzacția este
 comenzii se va schimba pe „completed” și se va adăuga la notele comenzii răspunsul primit
 de la bancă.
 
-##Anularea
+<h3>Anularea</h3>
 Anularea unei plăți (void) se face într-un mod similar cu capturarea, folosind aceeași
 interfață BT Pay API Calls, singura diferență fiind aceea că se selectează „Anulare plată” ca
 și API Call Action. Anularea poate fi făcută chiar și după capturarea plății, în acest caz se
@@ -77,3 +77,7 @@ capturată anterior, se va schimba pe „refunded”.
 
 *Toate tranzacțiile desfășurate între modulul de plată și bancă pot fi consultate în secțiunea
 **Transaction History**, împreună cu detaliile aferente.
+
+<h2>Probleme & Contributie</h2>
+Dacă depistați o problemă cu funcționarea modulului, puteți raporta un issue în tab-ul Issues din GitHub-ul acestui modul.
+Dacă sunteți developer și realizați fixuri pe acest modul, rapoartate sau nu în Issues, puteți clona modulul și face un pull request.
