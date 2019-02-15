@@ -1,0 +1,7 @@
+*** Simplify Changelog ***
+
+2013.10.01 - version 1.0.1
+ * Fix version check error
+ 
+2013.10.01 - version 1.0.0
+ * First Release
