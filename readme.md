@@ -21,6 +21,7 @@ Wordpress 3.5 – 3.8, există posibilitatea de a funcționa corect și pentru v
 WooCommerce sau versiuni mai noi de WordPress, însă utilizarea modului pentru aceste
 versiuni se face pe proprie răspundere.
 <h3>Instalare</h3>
+
 1. Descărcați și instalați platforma WordPress, versiunea 3.5 sau mai nouă. Aceasta se
 găsește la: http://wordpress.org/download/
 
