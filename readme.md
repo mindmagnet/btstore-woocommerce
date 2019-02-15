@@ -23,22 +23,31 @@ versiuni se face pe proprie răspundere.
 <h3>Instalare</h3>
 1. Descărcați și instalați platforma WordPress, versiunea 3.5 sau mai nouă. Aceasta se
 găsește la: http://wordpress.org/download/
+
 2. Verificați funcționarea corectă a WordPress
+
 3. Descărcați și instalați extensia WooCommerce, versiunea 2.1.6 sau mai nouă.
 Aceasta se găsește la: http://www.woothemes.com/woocommerce/
+
 4. Verificați instalarea corectă a WooCommerce
+
 5. Accesați interfața **admin** a WordPress (exemplu.com/wp-admin), apoi mergeți la
 meniul **Plugins, Add New, Upload,** selectați fișierul .zip care conține modulul
 eBTPay și apăsați pe **Install Now**.
+
 6. Navigați din nou la **Plugins, Installed Plugins** și în lista va apărea modulul eBTPay.
 Apăsați **Enable**.
+
 7. După activarea modulului, navigați la meniul **WooCommerce, Settings, Checkout,**
 iar acolo veți observa acum două secțiuni noi, **BTPay Standard și BTPay Star**.
+
 8. Accesați oricare dintre cele două și introduceți în zona **API Settings** informațiile de
 configurare primite de la bancă. Apoi faceți click pe **Save changes**. Configurațiile
 introduse vor fi salvate automat și pentru cealaltă metodă de plată.
+
 9. De asemenea, există anumite setări care sunt specifice fiecărei metode de plată în
 parte, vă sfătuim să le configurați după preferințe.
+
 10. În acest punct, modulul ar trebui să fie activ și pregătit de funcționare.
 
 *În cazul în care întâmpinați dificultăți la instalare, vă rugăm să ne contactați pentru suport.
